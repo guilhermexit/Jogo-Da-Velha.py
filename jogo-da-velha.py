@@ -36,6 +36,11 @@ def leiaCoordenadaColuna ():
     coluna = int(input("Insira a coluna: "))
     return coluna
 
+
+
+
+
+
 #Função onde o usuário decide a coordenada de sua jogada no tabuleiro
 def jogadaUsuario(matriz, cont, contadorO, contadorX):
     while verificarVencedor(contadorO, contadorX) <= 3:
